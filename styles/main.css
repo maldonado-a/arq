@@ -389,7 +389,11 @@ section {
   float: left;
   line-height: 1;
 }
-
+.logo-footer img{
+  width: 10%;
+  height: 2%;
+  
+}
 #email{
   width: 22.3rem;
 }
@@ -912,9 +916,11 @@ section {
 
 
 
-.logo img{
+.logo {
 
- width: 5rem;
+  width: 23%;
+  height: 8%;
+  
  
  
   
