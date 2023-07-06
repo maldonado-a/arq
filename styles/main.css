@@ -389,6 +389,10 @@ section {
   float: left;
   line-height: 1;
 }
+
+#email{
+  width: 22.3rem;
+}
 .contact .info h4 {
   padding: 0 0 0 60px;
   font-size: 22px;
