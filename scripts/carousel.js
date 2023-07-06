@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
       carouselElements.innerHTML = "";
       let newHTML = "";
       switch (client) {
-        case "UF 386-Terralagos":
+        case "UF 007 - Terralagos - Proyecto":
           for (let i = 1; i <= 4; i++) {
             if (i == 1) {
               newHTML += `<div class="carousel-item active">
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
             }
           }
           break;
-        case "El Cazal - UF163":
+        case "UF 017 - Highland - Proyecto":
           for (let i = 1; i <= 4; i++) {
             if (i == 1) {
               newHTML += `<div class="carousel-item active">
@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
             }
           }
           break;
-        case "El Cazal - UF158":
+        case "UF 026 - Terralagos - Proyecto":
           for (let i = 1; i <= 4; i++) {
             if (i == 1) {
               newHTML += `<div class="carousel-item active">
@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", () => {
             }
           }
           break;
-        case "San Sebastian - UF 3":
+        case "UF 094 - Terralagos - Proyecto":
           for (let i = 1; i <= 4; i++) {
             if (i == 1) {
               newHTML += `<div class="carousel-item active">
@@ -71,8 +71,8 @@ document.addEventListener("DOMContentLoaded", () => {
             }
           }
           break;
-        case "Escobar Centro - Mermoz":
-          for (let i = 1; i <= 4; i++) {
+        case "UF 270 - Terralagos - Proyecto":
+          for (let i = 1; i <= 2; i++) {
             if (i == 1) {
               newHTML += `<div class="carousel-item active">
                                   <img src="./assets/img/clients/ESCOBAR CENTRO. MERMOZ S-N/${i}.JPEG" class="d-block w-100" alt="...">
@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", () => {
             }
           }
           break;
-        case "El Cazador - OBLIGADO 350":
+        case "UF 279 - Pilar - Proyecto":
           for (let i = 1; i <= 4; i++) {
             if (i == 1) {
               newHTML += `<div class="carousel-item active">
@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", () => {
             }
           }
           break;
-        case "El Cazador - OBLIGADO 450":
+        case "UF 288 - Terralagos - Proyecto":
           for (let i = 1; i <= 4; i++) {
             if (i == 1) {
               newHTML += `<div class="carousel-item active">
