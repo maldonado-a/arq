@@ -720,7 +720,7 @@ video {
 @media screen and (max-width: 375px) {
   .carousel-item img {
     width: 100% !important;
-    height: 60% !important;
+    height: 55% !important;
     margin-top: 2rem;
   }
   .contenedor button {
@@ -736,7 +736,7 @@ video {
   .carousel-item img {
     /* Puedes ajustar estos valores según tus necesidades */
     width: 100% !important;
-    height: 60% !important;
+    height: 50% !important;
     margin-top: 2rem;
   }
   .contenedor button {
