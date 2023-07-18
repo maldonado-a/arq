@@ -704,18 +704,54 @@ video {
 }
 
 .contenedor button {
+  margin-left: 1rem;
   font-size: 0.9rem;
   margin-top: 0.1rem !important;
   /* margin-right: .1rem; */
 }
 
 #sliders .carousel-inner {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
+
+/* Para pantallas con ancho entre 320px y 375px */
+@media screen and (max-width: 375px) {
+  .carousel-item img {
+    width: 100% !important;
+    height: 60% !important;
+    margin-top: 2rem;
+  }
+  .contenedor button {
+    width: 25%;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+
+/* Para pantallas con ancho entre 376px y 763px */
+@media screen and (min-width: 376px) and (max-width: 763px) {
+  .carousel-item img {
+    /* Puedes ajustar estos valores según tus necesidades */
+    width: 100% !important;
+    height: 60% !important;
+    margin-top: 2rem;
+  }
+  .contenedor button {
+    /* Puedes ajustar estos valores según tus necesidades */
+    width: 25%;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+
+
+
 .carousel-inner {
-  height: 80vh;
+  height: 60vh;
 }
 
 .carousel-item {
