@@ -721,10 +721,11 @@ video {
   .carousel-item img {
     width: 100% !important;
     height: 55% !important;
-    margin-top: 2rem;
+    margin-bottom: 5rem;
   }
   .contenedor button {
     width: 25%;
+    height: 50%;
     margin-bottom: 1rem;
     display: flex;
     flex-direction: row-reverse;
@@ -736,8 +737,8 @@ video {
   .carousel-item img {
     /* Puedes ajustar estos valores según tus necesidades */
     width: 100% !important;
-    height: 50% !important;
-    margin-top: 2rem;
+    height: 55% !important;
+    margin-top: 3rem;
   }
   .contenedor button {
     /* Puedes ajustar estos valores según tus necesidades */
